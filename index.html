@@ -8,35 +8,27 @@
       name="description"
       content="Resume website for Peter Mercado, Direct Sales Associate and Microsoft technology specialist."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="bg-shape bg-shape-top"></div>
-    <div class="bg-shape bg-shape-bottom"></div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <header class="hero section reveal">
+    <header class="hero section">
       <div class="hero-left">
         <p class="eyebrow">Resume</p>
         <h1>Peter Mercado</h1>
-        <p class="headline">Direct Sales Associate and Technology Specialist</p>
+        <p class="headline">
+          Technical Sales and Support Professional | Microsoft Product
+          Specialist
+        </p>
         <p class="summary">
-          Results-driven technology sales professional with 10+ years of
-          experience representing Microsoft products, delivering exceptional
-          customer experiences, and helping customers identify technology
-          solutions that meet their needs, goals, and budgets. Proven success
-          building customer relationships, exceeding sales objectives, driving
-          revenue growth, and educating customers on consumer electronics,
-          Microsoft Surface devices, Windows operating systems, and Microsoft
-          365 solutions. Skilled at translating complex technology into
-          easy-to-understand recommendations, creating memorable customer
-          experiences, and generating repeat business through trust, product
-          expertise, and consultative selling.
+          Results-driven technology professional with 10+ years of experience
+          across Microsoft sales, technical support, and network operations.
+          Known for translating complex technology into clear recommendations,
+          improving customer satisfaction, and building long-term relationships
+          that drive repeat business and revenue growth. Strong background in
+          enterprise troubleshooting, incident resolution, consultative selling,
+          and stakeholder communication.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="#contact">Contact Me</a>
@@ -67,9 +59,49 @@
       </aside>
     </header>
 
-    <main>
-      <section class="section reveal" id="experience">
-        <h2>Experience</h2>
+    <main id="main-content">
+      <section
+        class="section"
+        id="highlights"
+        aria-labelledby="highlights-heading"
+      >
+        <h2 id="highlights-heading">Career Highlights</h2>
+        <article class="edu-card">
+          <ul class="highlights-list">
+            <li>
+              10+ years supporting Microsoft products, services, and customer
+              environments.
+            </li>
+            <li>
+              Exceeded sales targets through consultative selling and trusted
+              customer relationships.
+            </li>
+            <li>
+              Supported enterprise LAN/WAN and multi-datacenter network
+              troubleshooting workflows.
+            </li>
+            <li>
+              Led technical documentation and escalation processes to improve
+              operational efficiency.
+            </li>
+            <li>
+              Supported technical deployment planning during an $8M facility
+              expansion project.
+            </li>
+            <li>
+              Delivered bilingual customer support and product education in
+              English and Spanish.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section
+        class="section"
+        id="experience"
+        aria-labelledby="experience-heading"
+      >
+        <h2 id="experience-heading">Experience</h2>
 
         <article class="timeline-item">
           <div class="timeline-meta">
@@ -114,7 +146,7 @@
 
         <article class="timeline-item">
           <div class="timeline-meta">
-            <p class="role">Senior Direct Sales Associate Education</p>
+            <p class="role">Senior Direct Sales Associate, Education</p>
             <p class="company">Microsoft, Atlanta</p>
             <p class="period">2021-03 to 2023-10</p>
           </div>
@@ -332,8 +364,8 @@
         </article>
       </section>
 
-      <section class="section reveal" id="skills">
-        <h2>Core Skills</h2>
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Core Skills</h2>
         <div class="skill-grid">
           <div class="skill-card">
             <h3>Networking and Infrastructure</h3>
@@ -356,18 +388,29 @@
               collaboration, customer education
             </p>
           </div>
+          <div class="skill-card">
+            <h3>Operations and Delivery</h3>
+            <p>
+              Incident management, escalation handling, documentation,
+              cross-functional collaboration, ticket and case management
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="section reveal" id="languages">
-        <h2>Languages</h2>
+      <section
+        class="section"
+        id="languages"
+        aria-labelledby="languages-heading"
+      >
+        <h2 id="languages-heading">Languages</h2>
         <article class="edu-card">
           <p class="degree">English, Spanish</p>
         </article>
       </section>
     </main>
 
-    <footer class="section reveal" id="contact">
+    <footer class="section" id="contact">
       <h2>Contact</h2>
       <p>
         Open to full-time roles focused on technology sales, customer success,
